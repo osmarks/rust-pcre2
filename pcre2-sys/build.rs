@@ -82,6 +82,8 @@ fn main() {
 }
 
 fn pcre2_sys_static() -> Option<bool> {
+    return Some(true); 
+    /*
     match std::env::var("PCRE2_SYS_STATIC") {
         Err(_) => None,
         Ok(s) => {
@@ -94,6 +96,7 @@ fn pcre2_sys_static() -> Option<bool> {
             }
         }
     }
+    */
 }
 
 // On `aarch64-apple-ios` clang fails with the following error.
