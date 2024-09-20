@@ -170,7 +170,7 @@ sure both macros are undefined; an emulation function will then be used. */
    majority of cases. However, PCRE2 can also be compiled to use 3 or 4 bytes
    instead. This allows for longer patterns in extreme cases. */
 #ifndef LINK_SIZE
-#define LINK_SIZE 2
+#define LINK_SIZE 3
 #endif
 
 /* Define to the sub-directory where libtool stores uninstalled libraries. */
